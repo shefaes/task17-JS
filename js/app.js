@@ -15,9 +15,12 @@ todo.appendChild(div)
 div.appendChild(h3)
 div.appendChild(icon)
 
+if (icon){
+    icon.onclick = function(){
+     var i = document.querySelector('i');   
+    div.remove();
+    }
 }
-var icon = document.querySelector('i');
-icon.addEventListener('onclick',(e) =>{
-    var parent = e.target.parentElement;
-    parent.remove()
-})
+
+}
+

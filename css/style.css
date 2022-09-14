@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.group1{
+    border-radius: 10px;
+    background-color: pink;
+    color: purple;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-top: 15px;
+}
+#all-alerts{
+    border: 1px solid grey;
+    padding: 17px;
+}
+.box{
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px;
+    align-items: center;
+    color: purple;
+    border-radius: 10px;
+
+
+}
